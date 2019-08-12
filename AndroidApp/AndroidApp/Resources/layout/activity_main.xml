@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+   <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cheese"
+        android:id="@+id/img"
+    />
+    <TextView
+        android:text="Status: Not Tracking"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtStatus" />
+    <TextView
+        android:text="Lat : -"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLat" />
+
+    <TextView
+        android:text="Lon : -"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLon" />
+    <Button
+        android:text="Image Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e409a"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnCapture"/>
+     <Button
+        android:text="GPS Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e409a"
+        android:textColor="#fff"
+         android:layout_marginTop="20dp"
+        android:id="@+id/btnGps"/>
+
+
+    <Button
+        android:text="Nav Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e409a"
+        android:textColor="#fff"
+         android:layout_marginTop="20dp"
+        android:id="@+id/btnNav"/>
+</LinearLayout>
